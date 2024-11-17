@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Team Login</title>
+    <link rel="stylesheet" href="team.css" />
+  </head>
+  <body>
+    <div class="login-container">
+      <div class="login-box">
+        <h1>Team Login</h1>
+        <form id="loginForm">
+          <div class="form-group">
+            <label for="teamID">Team ID</label>
+            <input
+              type="number"
+              id="teamID"
+              placeholder="Enter your Team ID"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input
+              type="text"
+              id="name"
+              placeholder="Enter your Name"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input
+              type="email"
+              id="email"
+              placeholder="Enter your email"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label for="password">Password</label>
+            <input
+              type="password"
+              id="password"
+              placeholder="Enter your password"
+              required
+            />
+          </div>
+          <button type="submit" class="login-btn">Login</button>
+          <div class="extras">
+            <a href="#">Forgot Password?</a>
+            <a href="#">Sign Up</a>
+          </div>
+        </form>
+      </div>
+    </div>
+    <script src="team.js"></script>
+  </body>
+</html>

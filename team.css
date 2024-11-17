@@ -1,0 +1,84 @@
+body {
+  background-image: url(./team1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login-container {
+  width: 100%;
+  max-width: 400px;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.login-box h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: white;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  color: white;
+  font-size: 14px;
+  display: block;
+  margin-bottom: 5px;
+}
+
+input {
+  background-color: transparent;
+  color: white;
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+.login-btn {
+  width: 100%;
+  padding: 10px;
+  background: #007bff;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.login-btn:hover {
+  background: #0056b3;
+}
+
+.extras {
+  margin-top: 15px;
+  text-align: center;
+}
+
+.extras a {
+  font-size: 14px;
+  color: #007bff;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.extras a:hover {
+  text-decoration: underline;
+}
